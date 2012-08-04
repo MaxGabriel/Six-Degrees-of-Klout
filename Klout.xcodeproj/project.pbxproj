@@ -14,7 +14,50 @@
 		502EC74615C9A9B40089CA5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EC74515C9A9B40089CA5F /* main.m */; };
 		502EC74A15C9A9B40089CA5F /* USAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EC74915C9A9B40089CA5F /* USAppDelegate.m */; };
 		502EC74D15C9A9B40089CA5F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502EC74B15C9A9B40089CA5F /* MainStoryboard.storyboard */; };
-		502EC75015C9A9B40089CA5F /* USViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EC74F15C9A9B40089CA5F /* USViewController.m */; };
+		502EC75815C9AAA10089CA5F /* KloutEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EC75715C9AAA10089CA5F /* KloutEntryViewController.m */; };
+		502EC75B15C9BE470089CA5F /* KloutPersona.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EC75A15C9BE470089CA5F /* KloutPersona.m */; };
+		502EC76415C9C1C30089CA5F /* KloutInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EC76315C9C1C30089CA5F /* KloutInfoViewController.m */; };
+		502EC7C215C9DEAB0089CA5F /* popoverArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7A315C9DEAB0089CA5F /* popoverArrowDown.png */; };
+		502EC7C315C9DEAB0089CA5F /* popoverArrowDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7A415C9DEAB0089CA5F /* popoverArrowDown@2x.png */; };
+		502EC7C415C9DEAB0089CA5F /* popoverArrowDownSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7A515C9DEAB0089CA5F /* popoverArrowDownSimple.png */; };
+		502EC7C515C9DEAB0089CA5F /* popoverArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7A615C9DEAB0089CA5F /* popoverArrowLeft.png */; };
+		502EC7C615C9DEAB0089CA5F /* popoverArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7A715C9DEAB0089CA5F /* popoverArrowLeft@2x.png */; };
+		502EC7C715C9DEAB0089CA5F /* popoverArrowLeftSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7A815C9DEAB0089CA5F /* popoverArrowLeftSimple.png */; };
+		502EC7C815C9DEAB0089CA5F /* popoverArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7A915C9DEAB0089CA5F /* popoverArrowRight.png */; };
+		502EC7C915C9DEAB0089CA5F /* popoverArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7AA15C9DEAB0089CA5F /* popoverArrowRight@2x.png */; };
+		502EC7CA15C9DEAB0089CA5F /* popoverArrowRightSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7AB15C9DEAB0089CA5F /* popoverArrowRightSimple.png */; };
+		502EC7CB15C9DEAB0089CA5F /* popoverArrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7AC15C9DEAB0089CA5F /* popoverArrowUp.png */; };
+		502EC7CC15C9DEAB0089CA5F /* popoverArrowUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7AD15C9DEAB0089CA5F /* popoverArrowUp@2x.png */; };
+		502EC7CD15C9DEAB0089CA5F /* popoverArrowUpSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7AE15C9DEAB0089CA5F /* popoverArrowUpSimple.png */; };
+		502EC7CE15C9DEAB0089CA5F /* popoverBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7AF15C9DEAB0089CA5F /* popoverBg.png */; };
+		502EC7CF15C9DEAB0089CA5F /* popoverBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7B015C9DEAB0089CA5F /* popoverBg@2x.png */; };
+		502EC7D015C9DEAB0089CA5F /* popoverBgSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7B115C9DEAB0089CA5F /* popoverBgSimple.png */; };
+		502EC7D815C9DEAB0089CA5F /* UIBarButtonItem+WEPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EC7BA15C9DEAB0089CA5F /* UIBarButtonItem+WEPopover.m */; };
+		502EC7D915C9DEAB0089CA5F /* WEPopoverContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EC7BC15C9DEAB0089CA5F /* WEPopoverContainerView.m */; };
+		502EC7DA15C9DEAB0089CA5F /* WEPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EC7BE15C9DEAB0089CA5F /* WEPopoverController.m */; };
+		502EC7DB15C9DEAB0089CA5F /* WETouchableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EC7C115C9DEAB0089CA5F /* WETouchableView.m */; };
+		502EC7E115CA25E00089CA5F /* PopoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EC7E015CA25DF0089CA5F /* PopoverTableViewController.m */; };
+		502EC7E415CA27900089CA5F /* KloutTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 502EC7E315CA278F0089CA5F /* KloutTopic.m */; };
+		502EC7E815CA4E790089CA5F /* DINPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7E715CA4E790089CA5F /* DINPro-Bold.ttf */; };
+		502EC7EF15CA53330089CA5F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502EC7EE15CA53330089CA5F /* QuartzCore.framework */; };
+		502EC7F215CACEA80089CA5F /* KloutFromVector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7F015CACEA80089CA5F /* KloutFromVector@2x.png */; };
+		502EC7F315CACEA80089CA5F /* KloutFromVector.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7F115CACEA80089CA5F /* KloutFromVector.png */; };
+		502EC7FF15CAE1A40089CA5F /* use_your_illusion@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7FD15CAE1A40089CA5F /* use_your_illusion@2x.png */; };
+		502EC80015CAE1A40089CA5F /* use_your_illusion.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC7FE15CAE1A40089CA5F /* use_your_illusion.png */; };
+		502EC80315CAE25A0089CA5F /* light_noise_diagonal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC80115CAE25A0089CA5F /* light_noise_diagonal@2x.png */; };
+		502EC80415CAE25A0089CA5F /* light_noise_diagonal.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC80215CAE25A0089CA5F /* light_noise_diagonal.png */; };
+		502EC80715CAE2B40089CA5F /* dirty_old_shirt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC80515CAE2B40089CA5F /* dirty_old_shirt@2x.png */; };
+		502EC80815CAE2B40089CA5F /* dirty_old_shirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC80615CAE2B40089CA5F /* dirty_old_shirt.png */; };
+		502EC80B15CAE3110089CA5F /* concrete_wall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC80915CAE3110089CA5F /* concrete_wall@2x.png */; };
+		502EC80C15CAE3110089CA5F /* concrete_wall.png in Resources */ = {isa = PBXBuildFile; fileRef = 502EC80A15CAE3110089CA5F /* concrete_wall.png */; };
+		50AF657715CB02160022D408 /* kloutBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AF657515CB02160022D408 /* kloutBlue.png */; };
+		50AF657815CB02160022D408 /* kloutBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AF657615CB02160022D408 /* kloutBlue@2x.png */; };
+		50AF657B15CB0BC40022D408 /* InfluenceesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AF657A15CB0BC40022D408 /* InfluenceesTableViewController.m */; };
+		50AF657E15CB71460022D408 /* kloutButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AF657C15CB71460022D408 /* kloutButton@2x.png */; };
+		50AF657F15CB71460022D408 /* kloutButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AF657D15CB71460022D408 /* kloutButton.png */; };
+		50AF658215CB72040022D408 /* kloutButtonResized@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AF658015CB72040022D408 /* kloutButtonResized@2x.png */; };
+		50AF658315CB72040022D408 /* kloutButtonResized.png in Resources */ = {isa = PBXBuildFile; fileRef = 50AF658115CB72040022D408 /* kloutButtonResized.png */; };
+		50AF658615CB8B7C0022D408 /* ImageMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AF658515CB8B7B0022D408 /* ImageMapping.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +72,63 @@
 		502EC74815C9A9B40089CA5F /* USAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USAppDelegate.h; sourceTree = "<group>"; };
 		502EC74915C9A9B40089CA5F /* USAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USAppDelegate.m; sourceTree = "<group>"; };
 		502EC74C15C9A9B40089CA5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		502EC74E15C9A9B40089CA5F /* USViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USViewController.h; sourceTree = "<group>"; };
-		502EC74F15C9A9B40089CA5F /* USViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USViewController.m; sourceTree = "<group>"; };
+		502EC75615C9AAA10089CA5F /* KloutEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KloutEntryViewController.h; sourceTree = "<group>"; };
+		502EC75715C9AAA10089CA5F /* KloutEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KloutEntryViewController.m; sourceTree = "<group>"; };
+		502EC75915C9BE470089CA5F /* KloutPersona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KloutPersona.h; sourceTree = "<group>"; };
+		502EC75A15C9BE470089CA5F /* KloutPersona.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KloutPersona.m; sourceTree = "<group>"; };
+		502EC75C15C9BF780089CA5F /* KloutInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KloutInfo.h; sourceTree = "<group>"; };
+		502EC76215C9C1C30089CA5F /* KloutInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KloutInfoViewController.h; sourceTree = "<group>"; };
+		502EC76315C9C1C30089CA5F /* KloutInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KloutInfoViewController.m; sourceTree = "<group>"; };
+		502EC7A315C9DEAB0089CA5F /* popoverArrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowDown.png; sourceTree = "<group>"; };
+		502EC7A415C9DEAB0089CA5F /* popoverArrowDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowDown@2x.png"; sourceTree = "<group>"; };
+		502EC7A515C9DEAB0089CA5F /* popoverArrowDownSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowDownSimple.png; sourceTree = "<group>"; };
+		502EC7A615C9DEAB0089CA5F /* popoverArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowLeft.png; sourceTree = "<group>"; };
+		502EC7A715C9DEAB0089CA5F /* popoverArrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowLeft@2x.png"; sourceTree = "<group>"; };
+		502EC7A815C9DEAB0089CA5F /* popoverArrowLeftSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowLeftSimple.png; sourceTree = "<group>"; };
+		502EC7A915C9DEAB0089CA5F /* popoverArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowRight.png; sourceTree = "<group>"; };
+		502EC7AA15C9DEAB0089CA5F /* popoverArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowRight@2x.png"; sourceTree = "<group>"; };
+		502EC7AB15C9DEAB0089CA5F /* popoverArrowRightSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowRightSimple.png; sourceTree = "<group>"; };
+		502EC7AC15C9DEAB0089CA5F /* popoverArrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowUp.png; sourceTree = "<group>"; };
+		502EC7AD15C9DEAB0089CA5F /* popoverArrowUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowUp@2x.png"; sourceTree = "<group>"; };
+		502EC7AE15C9DEAB0089CA5F /* popoverArrowUpSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowUpSimple.png; sourceTree = "<group>"; };
+		502EC7AF15C9DEAB0089CA5F /* popoverBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverBg.png; sourceTree = "<group>"; };
+		502EC7B015C9DEAB0089CA5F /* popoverBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverBg@2x.png"; sourceTree = "<group>"; };
+		502EC7B115C9DEAB0089CA5F /* popoverBgSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverBgSimple.png; sourceTree = "<group>"; };
+		502EC7B915C9DEAB0089CA5F /* UIBarButtonItem+WEPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WEPopover.h"; sourceTree = "<group>"; };
+		502EC7BA15C9DEAB0089CA5F /* UIBarButtonItem+WEPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WEPopover.m"; sourceTree = "<group>"; };
+		502EC7BB15C9DEAB0089CA5F /* WEPopoverContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverContainerView.h; sourceTree = "<group>"; };
+		502EC7BC15C9DEAB0089CA5F /* WEPopoverContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEPopoverContainerView.m; sourceTree = "<group>"; };
+		502EC7BD15C9DEAB0089CA5F /* WEPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverController.h; sourceTree = "<group>"; };
+		502EC7BE15C9DEAB0089CA5F /* WEPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEPopoverController.m; sourceTree = "<group>"; };
+		502EC7BF15C9DEAB0089CA5F /* WEPopoverParentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverParentView.h; sourceTree = "<group>"; };
+		502EC7C015C9DEAB0089CA5F /* WETouchableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WETouchableView.h; sourceTree = "<group>"; };
+		502EC7C115C9DEAB0089CA5F /* WETouchableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WETouchableView.m; sourceTree = "<group>"; };
+		502EC7DF15CA25DF0089CA5F /* PopoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverTableViewController.h; sourceTree = "<group>"; };
+		502EC7E015CA25DF0089CA5F /* PopoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverTableViewController.m; sourceTree = "<group>"; };
+		502EC7E215CA278F0089CA5F /* KloutTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KloutTopic.h; sourceTree = "<group>"; };
+		502EC7E315CA278F0089CA5F /* KloutTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KloutTopic.m; sourceTree = "<group>"; };
+		502EC7E715CA4E790089CA5F /* DINPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Bold.ttf"; sourceTree = "<group>"; };
+		502EC7EE15CA53330089CA5F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		502EC7F015CACEA80089CA5F /* KloutFromVector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KloutFromVector@2x.png"; sourceTree = "<group>"; };
+		502EC7F115CACEA80089CA5F /* KloutFromVector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KloutFromVector.png; sourceTree = "<group>"; };
+		502EC7FD15CAE1A40089CA5F /* use_your_illusion@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "use_your_illusion@2x.png"; sourceTree = "<group>"; };
+		502EC7FE15CAE1A40089CA5F /* use_your_illusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = use_your_illusion.png; sourceTree = "<group>"; };
+		502EC80115CAE25A0089CA5F /* light_noise_diagonal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light_noise_diagonal@2x.png"; sourceTree = "<group>"; };
+		502EC80215CAE25A0089CA5F /* light_noise_diagonal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_noise_diagonal.png; sourceTree = "<group>"; };
+		502EC80515CAE2B40089CA5F /* dirty_old_shirt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dirty_old_shirt@2x.png"; sourceTree = "<group>"; };
+		502EC80615CAE2B40089CA5F /* dirty_old_shirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dirty_old_shirt.png; sourceTree = "<group>"; };
+		502EC80915CAE3110089CA5F /* concrete_wall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "concrete_wall@2x.png"; sourceTree = "<group>"; };
+		502EC80A15CAE3110089CA5F /* concrete_wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concrete_wall.png; sourceTree = "<group>"; };
+		50AF657515CB02160022D408 /* kloutBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kloutBlue.png; sourceTree = "<group>"; };
+		50AF657615CB02160022D408 /* kloutBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kloutBlue@2x.png"; sourceTree = "<group>"; };
+		50AF657915CB0BC40022D408 /* InfluenceesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfluenceesTableViewController.h; sourceTree = "<group>"; };
+		50AF657A15CB0BC40022D408 /* InfluenceesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfluenceesTableViewController.m; sourceTree = "<group>"; };
+		50AF657C15CB71460022D408 /* kloutButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kloutButton@2x.png"; sourceTree = "<group>"; };
+		50AF657D15CB71460022D408 /* kloutButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kloutButton.png; sourceTree = "<group>"; };
+		50AF658015CB72040022D408 /* kloutButtonResized@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kloutButtonResized@2x.png"; sourceTree = "<group>"; };
+		50AF658115CB72040022D408 /* kloutButtonResized.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kloutButtonResized.png; sourceTree = "<group>"; };
+		50AF658415CB8B7B0022D408 /* ImageMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageMapping.h; sourceTree = "<group>"; };
+		50AF658515CB8B7B0022D408 /* ImageMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageMapping.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502EC7EF15CA53330089CA5F /* QuartzCore.framework in Frameworks */,
 				502EC73A15C9A9B40089CA5F /* UIKit.framework in Frameworks */,
 				502EC73C15C9A9B40089CA5F /* Foundation.framework in Frameworks */,
 				502EC73E15C9A9B40089CA5F /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +149,7 @@
 		502EC72A15C9A9B40089CA5F = {
 			isa = PBXGroup;
 			children = (
+				502EC7EE15CA53330089CA5F /* QuartzCore.framework */,
 				502EC73F15C9A9B40089CA5F /* Klout */,
 				502EC73815C9A9B40089CA5F /* Frameworks */,
 				502EC73615C9A9B40089CA5F /* Products */,
@@ -80,8 +180,18 @@
 				502EC74815C9A9B40089CA5F /* USAppDelegate.h */,
 				502EC74915C9A9B40089CA5F /* USAppDelegate.m */,
 				502EC74B15C9A9B40089CA5F /* MainStoryboard.storyboard */,
-				502EC74E15C9A9B40089CA5F /* USViewController.h */,
-				502EC74F15C9A9B40089CA5F /* USViewController.m */,
+				502EC75615C9AAA10089CA5F /* KloutEntryViewController.h */,
+				502EC75715C9AAA10089CA5F /* KloutEntryViewController.m */,
+				502EC76215C9C1C30089CA5F /* KloutInfoViewController.h */,
+				502EC76315C9C1C30089CA5F /* KloutInfoViewController.m */,
+				502EC7DF15CA25DF0089CA5F /* PopoverTableViewController.h */,
+				502EC7E015CA25DF0089CA5F /* PopoverTableViewController.m */,
+				50AF657915CB0BC40022D408 /* InfluenceesTableViewController.h */,
+				50AF657A15CB0BC40022D408 /* InfluenceesTableViewController.m */,
+				50AF658415CB8B7B0022D408 /* ImageMapping.h */,
+				50AF658515CB8B7B0022D408 /* ImageMapping.m */,
+				502EC75C15C9BF780089CA5F /* KloutInfo.h */,
+				502EC7E515CA29330089CA5F /* Klout Models */,
 				502EC74015C9A9B40089CA5F /* Supporting Files */,
 			);
 			path = Klout;
@@ -90,12 +200,80 @@
 		502EC74015C9A9B40089CA5F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				502EC7FC15CAE1940089CA5F /* Background images */,
+				502EC7E915CA51590089CA5F /* Images */,
+				502EC7E715CA4E790089CA5F /* DINPro-Bold.ttf */,
+				502EC7A315C9DEAB0089CA5F /* popoverArrowDown.png */,
+				502EC7A415C9DEAB0089CA5F /* popoverArrowDown@2x.png */,
+				502EC7A515C9DEAB0089CA5F /* popoverArrowDownSimple.png */,
+				502EC7A615C9DEAB0089CA5F /* popoverArrowLeft.png */,
+				502EC7A715C9DEAB0089CA5F /* popoverArrowLeft@2x.png */,
+				502EC7A815C9DEAB0089CA5F /* popoverArrowLeftSimple.png */,
+				502EC7A915C9DEAB0089CA5F /* popoverArrowRight.png */,
+				502EC7AA15C9DEAB0089CA5F /* popoverArrowRight@2x.png */,
+				502EC7AB15C9DEAB0089CA5F /* popoverArrowRightSimple.png */,
+				502EC7AC15C9DEAB0089CA5F /* popoverArrowUp.png */,
+				502EC7AD15C9DEAB0089CA5F /* popoverArrowUp@2x.png */,
+				502EC7AE15C9DEAB0089CA5F /* popoverArrowUpSimple.png */,
+				502EC7AF15C9DEAB0089CA5F /* popoverBg.png */,
+				502EC7B015C9DEAB0089CA5F /* popoverBg@2x.png */,
+				502EC7B115C9DEAB0089CA5F /* popoverBgSimple.png */,
+				502EC7B915C9DEAB0089CA5F /* UIBarButtonItem+WEPopover.h */,
+				502EC7BA15C9DEAB0089CA5F /* UIBarButtonItem+WEPopover.m */,
+				502EC7BB15C9DEAB0089CA5F /* WEPopoverContainerView.h */,
+				502EC7BC15C9DEAB0089CA5F /* WEPopoverContainerView.m */,
+				502EC7BD15C9DEAB0089CA5F /* WEPopoverController.h */,
+				502EC7BE15C9DEAB0089CA5F /* WEPopoverController.m */,
+				502EC7BF15C9DEAB0089CA5F /* WEPopoverParentView.h */,
+				502EC7C015C9DEAB0089CA5F /* WETouchableView.h */,
+				502EC7C115C9DEAB0089CA5F /* WETouchableView.m */,
 				502EC74115C9A9B40089CA5F /* Klout-Info.plist */,
 				502EC74215C9A9B40089CA5F /* InfoPlist.strings */,
 				502EC74515C9A9B40089CA5F /* main.m */,
 				502EC74715C9A9B40089CA5F /* Klout-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		502EC7E515CA29330089CA5F /* Klout Models */ = {
+			isa = PBXGroup;
+			children = (
+				502EC75915C9BE470089CA5F /* KloutPersona.h */,
+				502EC75A15C9BE470089CA5F /* KloutPersona.m */,
+				502EC7E215CA278F0089CA5F /* KloutTopic.h */,
+				502EC7E315CA278F0089CA5F /* KloutTopic.m */,
+			);
+			name = "Klout Models";
+			sourceTree = "<group>";
+		};
+		502EC7E915CA51590089CA5F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				50AF658015CB72040022D408 /* kloutButtonResized@2x.png */,
+				50AF658115CB72040022D408 /* kloutButtonResized.png */,
+				50AF657C15CB71460022D408 /* kloutButton@2x.png */,
+				50AF657D15CB71460022D408 /* kloutButton.png */,
+				50AF657515CB02160022D408 /* kloutBlue.png */,
+				50AF657615CB02160022D408 /* kloutBlue@2x.png */,
+				502EC7F015CACEA80089CA5F /* KloutFromVector@2x.png */,
+				502EC7F115CACEA80089CA5F /* KloutFromVector.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		502EC7FC15CAE1940089CA5F /* Background images */ = {
+			isa = PBXGroup;
+			children = (
+				502EC80915CAE3110089CA5F /* concrete_wall@2x.png */,
+				502EC80A15CAE3110089CA5F /* concrete_wall.png */,
+				502EC80515CAE2B40089CA5F /* dirty_old_shirt@2x.png */,
+				502EC80615CAE2B40089CA5F /* dirty_old_shirt.png */,
+				502EC80115CAE25A0089CA5F /* light_noise_diagonal@2x.png */,
+				502EC80215CAE25A0089CA5F /* light_noise_diagonal.png */,
+				502EC7FD15CAE1A40089CA5F /* use_your_illusion@2x.png */,
+				502EC7FE15CAE1A40089CA5F /* use_your_illusion.png */,
+			);
+			name = "Background images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +330,38 @@
 			files = (
 				502EC74415C9A9B40089CA5F /* InfoPlist.strings in Resources */,
 				502EC74D15C9A9B40089CA5F /* MainStoryboard.storyboard in Resources */,
+				502EC7C215C9DEAB0089CA5F /* popoverArrowDown.png in Resources */,
+				502EC7C315C9DEAB0089CA5F /* popoverArrowDown@2x.png in Resources */,
+				502EC7C415C9DEAB0089CA5F /* popoverArrowDownSimple.png in Resources */,
+				502EC7C515C9DEAB0089CA5F /* popoverArrowLeft.png in Resources */,
+				502EC7C615C9DEAB0089CA5F /* popoverArrowLeft@2x.png in Resources */,
+				502EC7C715C9DEAB0089CA5F /* popoverArrowLeftSimple.png in Resources */,
+				502EC7C815C9DEAB0089CA5F /* popoverArrowRight.png in Resources */,
+				502EC7C915C9DEAB0089CA5F /* popoverArrowRight@2x.png in Resources */,
+				502EC7CA15C9DEAB0089CA5F /* popoverArrowRightSimple.png in Resources */,
+				502EC7CB15C9DEAB0089CA5F /* popoverArrowUp.png in Resources */,
+				502EC7CC15C9DEAB0089CA5F /* popoverArrowUp@2x.png in Resources */,
+				502EC7CD15C9DEAB0089CA5F /* popoverArrowUpSimple.png in Resources */,
+				502EC7CE15C9DEAB0089CA5F /* popoverBg.png in Resources */,
+				502EC7CF15C9DEAB0089CA5F /* popoverBg@2x.png in Resources */,
+				502EC7D015C9DEAB0089CA5F /* popoverBgSimple.png in Resources */,
+				502EC7E815CA4E790089CA5F /* DINPro-Bold.ttf in Resources */,
+				502EC7F215CACEA80089CA5F /* KloutFromVector@2x.png in Resources */,
+				502EC7F315CACEA80089CA5F /* KloutFromVector.png in Resources */,
+				502EC7FF15CAE1A40089CA5F /* use_your_illusion@2x.png in Resources */,
+				502EC80015CAE1A40089CA5F /* use_your_illusion.png in Resources */,
+				502EC80315CAE25A0089CA5F /* light_noise_diagonal@2x.png in Resources */,
+				502EC80415CAE25A0089CA5F /* light_noise_diagonal.png in Resources */,
+				502EC80715CAE2B40089CA5F /* dirty_old_shirt@2x.png in Resources */,
+				502EC80815CAE2B40089CA5F /* dirty_old_shirt.png in Resources */,
+				502EC80B15CAE3110089CA5F /* concrete_wall@2x.png in Resources */,
+				502EC80C15CAE3110089CA5F /* concrete_wall.png in Resources */,
+				50AF657715CB02160022D408 /* kloutBlue.png in Resources */,
+				50AF657815CB02160022D408 /* kloutBlue@2x.png in Resources */,
+				50AF657E15CB71460022D408 /* kloutButton@2x.png in Resources */,
+				50AF657F15CB71460022D408 /* kloutButton.png in Resources */,
+				50AF658215CB72040022D408 /* kloutButtonResized@2x.png in Resources */,
+				50AF658315CB72040022D408 /* kloutButtonResized.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +374,17 @@
 			files = (
 				502EC74615C9A9B40089CA5F /* main.m in Sources */,
 				502EC74A15C9A9B40089CA5F /* USAppDelegate.m in Sources */,
-				502EC75015C9A9B40089CA5F /* USViewController.m in Sources */,
+				502EC75815C9AAA10089CA5F /* KloutEntryViewController.m in Sources */,
+				502EC75B15C9BE470089CA5F /* KloutPersona.m in Sources */,
+				502EC76415C9C1C30089CA5F /* KloutInfoViewController.m in Sources */,
+				502EC7D815C9DEAB0089CA5F /* UIBarButtonItem+WEPopover.m in Sources */,
+				502EC7D915C9DEAB0089CA5F /* WEPopoverContainerView.m in Sources */,
+				502EC7DA15C9DEAB0089CA5F /* WEPopoverController.m in Sources */,
+				502EC7DB15C9DEAB0089CA5F /* WETouchableView.m in Sources */,
+				502EC7E115CA25E00089CA5F /* PopoverTableViewController.m in Sources */,
+				502EC7E415CA27900089CA5F /* KloutTopic.m in Sources */,
+				50AF657B15CB0BC40022D408 /* InfluenceesTableViewController.m in Sources */,
+				50AF658615CB8B7C0022D408 /* ImageMapping.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +500,7 @@
 				502EC75515C9A9B40089CA5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

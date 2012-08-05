@@ -45,8 +45,8 @@
 }
 
 
-#warning sometimes the 'nicks' are junk, need to see if there is a consistent way to tell. might be a ~ as first char?
 
+// Sometimes the 'nicks' are junk, need to see if there is a consistent way to tell. might be a ~ as first char?
 - (void)updateInfluenceesWithDictionary:(NSDictionary *)dictionary
 {
     NSArray *myInfluencees = [dictionary objectForKey:@"myInfluencees"];

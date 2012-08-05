@@ -110,7 +110,6 @@
                 if (topicImage) {
                     [[[ImageMapping sharedInstance] topicImageCache] setObject:topicImage forKey:topic.imageUrl];
                 }
-//                [tableView reloadData];
                 
             }];
         }];

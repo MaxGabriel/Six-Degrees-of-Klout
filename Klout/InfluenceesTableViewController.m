@@ -18,6 +18,7 @@
 
 @synthesize dataSource = _dataSource;
 @synthesize tableView = _tableView;
+@synthesize delegate = _delegate;
 
 
 - (id)initWithStyle:(UITableViewStyle)style

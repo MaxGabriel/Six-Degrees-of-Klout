@@ -82,15 +82,14 @@
     
     [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:urlWithTwitterName] queue:_queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *error){
         
-
-        
         if (error) {
             NSLog(@"Error occured.");
         }
-
-        NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
         
-        if (!dictionary) {
+
+        
+        
+        if (!data) {
             
             dispatch_async(dispatch_get_main_queue(), ^{
                 [spinner stopAnimating];
@@ -99,6 +98,7 @@
             
             
         } else {
+            NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
             NSString *kloutID = [dictionary objectForKey:@"id"];
             persona.kloutID = kloutID;
             //        NSLog(@"%@",dictionary);
@@ -107,6 +107,10 @@
             
             NSURL *urlWithKloutId = [NSURL URLWithString:[NSString stringWithFormat:@"http://api.klout.com/v2/user.json/%@/score?key=%@",kloutID,KLOUT_KEY]];
             [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:urlWithKloutId] queue:_queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
+                
+                if (!data) {
+                    NSLog(@"Data is nil 2");
+                }
                 
                 [persona updateScoresWithData:data];
                 

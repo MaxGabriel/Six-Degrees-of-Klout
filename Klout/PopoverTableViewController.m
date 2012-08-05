@@ -104,7 +104,7 @@
             UIImage *topicImage = [UIImage imageWithData:imageData];
             
             [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-                
+        
                 [cell.imageView setImage:topicImage];
                 
                 if (topicImage) {
